@@ -1,0 +1,60 @@
+*{
+  margin: 0px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+.App{
+  height: 100vh;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+}
+
+.right{
+  height: 100vh;
+  width: 50vw;
+  background-color: blue;
+  position: relative;
+  left: 600px;
+  transition: all 1s;
+}
+
+.rightChange{
+  background-color: gold;
+  height: 100vh;
+  width: 50vw;
+  position: relative;
+  left: 600px;
+  transition: all 1s;
+}
+
+button{
+  margin-left: 300px;
+}
+
+h1{
+  font-size: 100px;
+}
+
+.showMouse{
+  opacity:1;
+  transition: all 1s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dontShowMouse{
+  opacity: 0;
+  transition: all 1s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mouse{
+  transition: all 1s;
+}
